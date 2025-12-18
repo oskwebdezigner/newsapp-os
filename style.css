@@ -1,0 +1,133 @@
+header{
+    background-color: #000;
+    text-align: center;
+    padding: 15px 0;
+}
+header h1{
+    color:#fff;
+}
+a{text-decoration: none;}
+.search-form{}
+.search-form input{
+    width:80%;
+    margin-right:2%;
+}
+.search-form button{
+    width:15%;
+}
+.single-slide{
+    position: relative;
+}
+.single-slide .slide-img img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+}
+.single-slide .slide-cont{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    max-width: 60%;
+    width:max-content;
+    height: max-content;
+    background-color: #ffffff40;
+    z-index: 2;
+    border-radius: 20px;
+    padding:35px 45px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+.single-slide .slide-cont span{
+    font-size:40px;
+    color:#00579D;
+    font-weight: 700;
+}
+.single-slide .slide-cont h1{
+    color:#000;
+    font-size:36px;
+    margin-bottom:25px;
+}
+.single-slide .slide-cont a{}
+#slider .slick-arrow{
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #00579D;
+}
+#slider .slick-arrow i{
+    color: #fff;
+}
+#slider .slick-next{
+    right:15px;
+}
+#slider .slick-prev{
+    left:15px;
+}
+
+/* content-area */
+.content-area{
+    margin-top:60px;
+}
+/* Sidebar */
+.single-sidenews, .single-news{
+    box-shadow:1px 1px 10px 3px #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom:25px;
+}
+.sidenews-cont{
+    padding:5px 15px 15px
+}
+.sidenews-cont span{
+    color:#ff0000;
+    font-weight:700
+}
+.sidenews-cont h6{
+    font-size:16px;
+    font-weight: 600;
+}
+.single-news{
+    height:calc(100% - 25px);
+    display: block;
+}
+.news-cont{
+    padding:15px;
+}
+.news-img{
+    position: relative;
+}
+.news-img img{
+    height:250px;
+    object-fit: cover;
+}
+.news-img span{
+    position: absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    background-color: #00579D;
+    padding:5px 15px;
+}
+.news-cont > div > span{
+    color:#ff0000;
+    font-weight:700;
+    text-align:right;
+    flex:1 1 60%;
+}
+.news-cont > div > strong{
+    color:#000
+}
+.news-cont h6{
+    color: #00579D;
+}
+.news-cont p{
+    color:#1d1d1d
+}
